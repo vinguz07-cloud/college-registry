@@ -1,0 +1,10 @@
+(this is to add a new ITEM)
+
+{
+id:"UNIQUE_ID",
+title:"Item Name",
+price:"$00",
+store:"Store Name",
+image:"image/yourimage.jpg",
+link:"https://product-link.com"
+},
