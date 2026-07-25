@@ -1,148 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1220">
     <title>Vincent's College Registry</title>
-
+    <link rel="icon" type="image/svg+xml" href="Image/favicon.svg">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
 </head>
-
 <body>
-
     <header id="site-header">
-
-        <a href="index.html" class="site-title">
-            Vincent's College Registry
-        </a>
-
-        <nav
-            class="header-right"
-            aria-label="Main navigation"
-        >
+        <a href="index.html" class="site-title">Vincent's College Registry</a>
+        <nav class="header-right" aria-label="Main navigation">
             <a href="index.html">Registry</a>
-
             <a href="faq.html">FAQ</a>
-
-            <a href="#">Donate</a>
-
-            <a href="cart.html" class="cart-link">
-                🛒 Cart
-
-                <span id="cart-count">0</span>
-            </a>
+            <a href="cart.html" class="cart-link">🛒 Cart <span id="cart-count">0</span></a>
         </nav>
-
     </header>
 
     <section class="home-intro">
-
-        <p>
-            Everything here is helping me prepare for college.
-            Thank you for supporting my next chapter.
-        </p>
-
+        <p>Everything here is helping me prepare for college. Thank you for supporting my next chapter.</p>
     </section>
 
     <main>
-
         <div class="controls-bar">
-
-            <div
-                class="view-filter"
-                role="group"
-                aria-label="View filter"
-            >
+            <div class="view-filter" role="group" aria-label="View filter">
                 <span class="control-label">View:</span>
-
-                <button
-                    class="view-btn active"
-                    id="grid-view-btn"
-                    type="button"
-                    aria-pressed="true"
-                >
-                    Grid
-                </button>
-
-                <button
-                    class="view-btn"
-                    id="list-view-btn"
-                    type="button"
-                    aria-pressed="false"
-                >
-                    List
-                </button>
+                <button class="view-btn active" id="grid-view-btn" type="button" aria-pressed="true">Grid</button>
+                <button class="view-btn" id="list-view-btn" type="button" aria-pressed="false">List</button>
             </div>
-
             <div class="filter-bar">
-
-                <label for="sort-items">
-                    Sort items:
-                </label>
-
+                <label for="sort-items">Sort items:</label>
                 <select id="sort-items">
-
-                    <option value="default">
-                        Featured
-                    </option>
-
-                    <option value="price-low">
-                        Price: Low to High
-                    </option>
-
-                    <option value="price-high">
-                        Price: High to Low
-                    </option>
-
-                    <option value="brand">
-                        Brand: A to Z
-                    </option>
-
+                    <option value="default">Featured</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="brand">Brand: A to Z</option>
                 </select>
-
             </div>
-
         </div>
-
-        <p
-            id="registry-status"
-            class="registry-status"
-            role="status"
-            aria-live="polite"
-        ></p>
-
-        <section
-            id="grid"
-            class="grid"
-            aria-label="Registry items"
-        ></section>
-
+        <p id="registry-status" class="registry-status" role="status" aria-live="polite"></p>
+        <section id="grid" class="grid" aria-label="Registry items"></section>
     </main>
-
-    <script
-        type="module"
-        src="js/script.js"
-    ></script>
-
+    <script type="module" src="js/script.js"></script>
 </body>
-
 </html>
