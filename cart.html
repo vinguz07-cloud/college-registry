@@ -1,163 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1220">
     <title>Your Cart | Vincent's College Registry</title>
-
+    <link rel="icon" type="image/svg+xml" href="Image/favicon.svg">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
     <header>
-
         <div class="header-left">
-
             <h1>Vincent's College Registry</h1>
-
-            <p>
-                Helping Vincent prepare for college one gift at a time.
-            </p>
-
+            <p>Helping Vincent prepare for college one gift at a time.</p>
         </div>
-
-        <nav
-            class="header-right"
-            aria-label="Main navigation"
-        >
-
+        <nav class="header-right" aria-label="Main navigation">
             <a href="index.html">Registry</a>
-
             <a href="faq.html">FAQ</a>
-
-            <a href="#">Donate</a>
-
-            <a href="cart.html" class="cart-link">
-
-                🛒 Cart
-
-                <span id="cart-count">0</span>
-
-            </a>
-
+            <a href="cart.html" class="cart-link">🛒 Cart <span id="cart-count">0</span></a>
         </nav>
-
     </header>
 
     <main class="cart-page">
-
-        <h1 class="cart-title">
-            Helping Vincent Move to College
-        </h1>
-
-        <p class="cart-subtitle">
-            Thank you for supporting my college journey.
-        </p>
-
+        <h1 class="cart-title">Helping Vincent Move to College</h1>
+        <p class="cart-subtitle">Thank you for supporting my college journey.</p>
         <div id="cart-items"></div>
-
-        <form
-            id="reservation-form"
-            class="cart-summary"
-        >
-
-            <div class="summary-row">
-
-                <span>Items Selected</span>
-
-                <span id="item-count">0 / 3</span>
-
-            </div>
-
-            <div class="summary-row">
-
-                <span>Estimated Total</span>
-
-                <strong id="subtotal">$0</strong>
-
-            </div>
-
+        <form id="reservation-form" class="cart-summary">
+            <div class="summary-row"><span>Items Selected</span><span id="item-count">0 / 3</span></div>
+            <div class="summary-row"><span>Estimated Total</span><strong id="subtotal">$0</strong></div>
             <div class="reservation-fields">
-
-                <label for="reservation-name">
-                    Name
-                </label>
-
-                <input
-                    id="reservation-name"
-                    name="name"
-                    type="text"
-                    maxlength="80"
-                    autocomplete="name"
-                    required
-                >
-
-                <label for="reservation-email">
-                    Email
-                </label>
-
-                <input
-                    id="reservation-email"
-                    name="email"
-                    type="email"
-                    maxlength="120"
-                    autocomplete="email"
-                    required
-                >
-
+                <label for="reservation-name">Name</label>
+                <input id="reservation-name" name="name" type="text" maxlength="80" autocomplete="name" required>
+                <label for="reservation-email">Email</label>
+                <input id="reservation-email" name="email" type="email" maxlength="120" autocomplete="email" required>
             </div>
-
-            <p
-                id="reservation-status"
-                class="reservation-status"
-                role="status"
-                aria-live="polite"
-            ></p>
-
-            <button id="reserve-all" type="submit">
-                Reserve These Gifts
-            </button>
-
-            <a href="#" class="donate-btn">
-                Donate Instead ❤️
-            </a>
-
-            <a
-                href="index.html"
-                class="continue-shopping"
-            >
-                ← Continue Shopping
-            </a>
-
+            <p id="reservation-status" class="reservation-status" role="status" aria-live="polite"></p>
+            <button id="reserve-all" type="submit">Reserve These Gifts</button>
+            <a href="index.html" class="continue-shopping">← Continue Shopping</a>
         </form>
-
     </main>
-
-    <script
-        type="module"
-        src="js/cart.js"
-    ></script>
-
+    <script type="module" src="js/cart.js"></script>
 </body>
-
 </html>
