@@ -110,6 +110,11 @@ function createCard(item) {
     const button = card.querySelector(".reserve-btn");
     const unaddButton = card.querySelector(".unadd-btn");
 
+    image.addEventListener("error", () => {
+        image.classList.add("image-missing");
+        image.alt = `${item.title} image unavailable`;
+    }, { once: true });
+
     image.addEventListener("click", () => {
         localStorage.setItem(`viewed_${item.id}`, "true");
         card.classList.add("interested");
