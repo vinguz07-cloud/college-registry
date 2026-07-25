@@ -823,3 +823,216 @@ main {
     cursor: not-allowed;
     opacity: .6;
 }
+/* Dark mode */
+:root {
+    color-scheme: dark;
+    --blue: #60a5fa;
+    --blue-dark: #3b82f6;
+    --green: #22c55e;
+    --red: #f87171;
+    --red-dark: #ef4444;
+    --white: #111827;
+    --muted: #9ca3af;
+    --text: #f3f4f6;
+    --border: #334155;
+    --shadow: 0 12px 30px rgb(0 0 0 / 32%);
+    --page: #0b1220;
+    --surface: #111827;
+    --surface-raised: #172033;
+    --surface-soft: #1e293b;
+}
+
+html,
+body {
+    min-height: 100%;
+    background: var(--page);
+    color: var(--text);
+}
+
+header,
+.home-intro {
+    background: var(--surface);
+}
+
+#site-header.has-shadow,
+header {
+    box-shadow: 0 2px 16px rgb(0 0 0 / 35%);
+}
+
+.site-title,
+.site-title:visited,
+.header-left h1,
+.cart-title,
+.info h2,
+.cart-info h2,
+.faq-page h1 {
+    color: var(--text);
+}
+
+.header-right a {
+    color: #cbd5e1;
+}
+
+.header-right a:hover,
+.site-title:hover,
+.faq-page a,
+.continue-shopping {
+    color: var(--blue);
+}
+
+.home-intro p,
+.header-left p,
+.cart-subtitle,
+.control-label,
+.filter-bar label,
+.store,
+.cart-info p,
+.faq-page p {
+    color: var(--muted);
+}
+
+.view-btn {
+    color: #aeb8c7;
+}
+
+.view-btn:hover {
+    color: #bfdbfe;
+    background: #172554;
+}
+
+.view-btn.active,
+.filter-bar select,
+.reservation-fields input {
+    color: var(--text);
+    background: var(--surface-raised);
+    border-color: var(--border);
+}
+
+.filter-bar select option {
+    color: var(--text);
+    background: var(--surface-raised);
+}
+
+.card,
+.cart-item,
+.cart-summary,
+.faq-page {
+    background: var(--surface);
+    border: 1px solid rgb(71 85 105 / 65%);
+    box-shadow: var(--shadow);
+}
+
+.card:hover {
+    box-shadow: 0 14px 38px rgb(37 99 235 / 18%), 0 14px 36px rgb(0 0 0 / 38%);
+}
+
+.grid.list-view .card {
+    background: var(--surface);
+    border-color: var(--border);
+    box-shadow: 0 6px 18px rgb(0 0 0 / 24%);
+}
+
+.grid.list-view .card:hover {
+    box-shadow: 0 10px 26px rgb(0 0 0 / 34%);
+}
+
+.price {
+    color: #93c5fd;
+}
+
+.unadd-btn {
+    color: #a8b3c4;
+}
+
+.unadd-btn:hover {
+    color: #e5e7eb;
+}
+
+.reserve-btn,
+#reserve-all,
+.cart-link {
+    background: #2563eb;
+}
+
+.cart-link:hover,
+.reserve-btn:hover,
+#reserve-all:hover {
+    background: #1d4ed8;
+}
+
+#cart-count {
+    color: #1d4ed8;
+    background: #eff6ff;
+}
+
+.reserve-btn.reserved {
+    background: #475569;
+}
+
+.approved-reserved-card {
+    opacity: .58;
+    background: #0f172a;
+    filter: grayscale(.25);
+}
+
+.approved-reserved-card:hover {
+    opacity: .7;
+}
+
+.reserved-by {
+    color: #cbd5e1;
+    font-size: .88rem;
+    font-weight: 600;
+}
+
+.approved-reserved-card .reserved-by {
+    color: #e2e8f0;
+}
+
+.interested::after {
+    background: #475569;
+}
+
+.reservation-fields input:focus,
+.filter-bar select:focus,
+.view-btn:focus-visible,
+.reserve-btn:focus-visible,
+.unadd-btn:focus-visible,
+.remove-btn:focus-visible,
+#reserve-all:focus-visible,
+a:focus-visible {
+    outline: 2px solid #60a5fa;
+    outline-offset: 3px;
+}
+
+.grid.list-view .bottom-row {
+    border-color: var(--border);
+}
+
+.faq-page {
+    max-width: 760px;
+    margin: 48px auto;
+    padding: 34px;
+    border-radius: 20px;
+}
+
+.faq-page h1 {
+    margin-bottom: 18px;
+    font-size: 2.3rem;
+}
+
+.faq-page p {
+    margin-bottom: 18px;
+    line-height: 1.75;
+}
+
+.image-missing {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+@media (max-width: 850px) {
+    .faq-page {
+        margin: 24px;
+        padding: 26px;
+    }
+}
