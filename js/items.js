@@ -37,8 +37,7 @@ export const items = [
         price: 48,
         store: "Penrose Records",
         image: "Image/records.png",
-        link:
-            "https://shopdaptonerecords.com/products/penrose-45-record-box"
+        link: "https://shopdaptonerecords.com/products/penrose-45-record-box"
     },
     {
         id: "phone-case",
