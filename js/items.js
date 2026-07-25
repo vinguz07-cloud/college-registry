@@ -4,7 +4,7 @@ export const items = [
         title: "Mattress Cover",
         price: 26,
         store: "Walmart",
-        image: "Image/mattres.avif",
+        image: "image/mattres.avif",
         link: "https://www.walmart.com/ip/6504506701"
     },
     {
@@ -12,7 +12,7 @@ export const items = [
         title: "Boar Brush",
         price: 10,
         store: "Amazon",
-        image: "Image/brush.jpg",
+        image: "image/brush.jpg",
         link: "https://www.amazon.com/dp/B07CWV7L65"
     },
     {
@@ -20,7 +20,7 @@ export const items = [
         title: "Twin XL Sheets",
         price: 25,
         store: "Walmart",
-        image: "Image/sheets.avif",
+        image: "image/sheets.avif",
         link: "https://www.walmart.com/ip/17770914398"
     },
     {
@@ -28,7 +28,7 @@ export const items = [
         title: "Vinyl Record Sleeves",
         price: 22,
         store: "Amazon",
-        image: "Image/viynl.jpg",
+        image: "image/viynl.jpg",
         link: "https://www.amazon.com/dp/B07Z3QQKG2"
     },
     {
@@ -36,7 +36,7 @@ export const items = [
         title: "Penrose 7-inch Record Box",
         price: 48,
         store: "Penrose Records",
-        image: "Image/records.png",
+        image: "image/records.png",
         link: "https://shopdaptonerecords.com/products/penrose-45-record-box"
     },
     {
@@ -44,7 +44,7 @@ export const items = [
         title: "Phone Case",
         price: 45,
         store: "Amazon",
-        image: "Image/phone.jpg",
+        image: "image/phone.jpg",
         link: "https://www.amazon.com/dp/B0G8NFGJ83"
     },
     {
@@ -52,7 +52,7 @@ export const items = [
         title: "Screen Protector",
         price: 6,
         store: "Amazon",
-        image: "Image/screen.jpg",
+        image: "image/screen.jpg",
         link: "https://www.amazon.com/dp/B0CCYM3F1V"
     },
     {
@@ -60,7 +60,7 @@ export const items = [
         title: "Extendable Poster Tube",
         price: 20,
         store: "Walmart",
-        image: "Image/poster-tube.jpg",
+        image: "image/poster-tube.jpg",
         link: "https://www.walmart.com/ip/16768252599"
     },
     {
@@ -68,7 +68,7 @@ export const items = [
         title: "Method Simply Nourish Body Lotion (2 Pack)",
         price: 20,
         store: "Amazon",
-        image: "Image/method-body-lotion.jpg",
+        image: "image/method-body-lotion.jpg",
         link: "https://www.amazon.com/dp/B0GHCJ37YB"
     },
     {
@@ -76,7 +76,7 @@ export const items = [
         title: "Native Shampoo and Conditioner Set",
         price: 22,
         store: "Amazon",
-        image: "Image/native-shampoo-conditioner.jpg",
+        image: "image/native-shampoo-conditioner.jpg",
         link: "https://www.amazon.com/dp/B0CHK1CKJ2"
     },
     {
@@ -84,7 +84,7 @@ export const items = [
         title: "Small Moving Box (Need 10)",
         price: 18,
         store: "U-Haul",
-        image: "Image/small-moving-box.png",
+        image: "image/small-moving-box.png",
         link: "https://www.uhaul.com/MovingSupplies/Boxes/Standard-Sized-Moving-Boxes/Small-Moving-Box/?id=3245"
     },
     {
@@ -92,7 +92,7 @@ export const items = [
         title: "10-foot Large Enviro-Bubble Roll",
         price: 7,
         store: "U-Haul",
-        image: "Image/enviro-bubble-roll.jpg",
+        image: "image/enviro-bubble-roll.jpg",
         link: "https://www.uhaul.com/MovingSupplies/Packing-Supplies/10%E2%80%99-Enviro-Bubble-Roll-(Large-Bubble-Size)/?mid=99&aid=2293"
     },
     {
@@ -100,7 +100,7 @@ export const items = [
         title: "3-inch Twin XL Memory Foam Mattress Topper",
         price: 46,
         store: "Amazon",
-        image: "Image/twin-xl-memory-foam-topper.webp",
+        image: "image/twin-xl-memory-foam-topper.webp",
         link: "https://www.amazon.com/dp/B09TZMJMRY"
     },
     {
@@ -108,7 +108,7 @@ export const items = [
         title: "Twin XL Sheets - Dark Gray",
         price: 17,
         store: "Amazon",
-        image: "Image/twin-xl-sheets-dark-gray.jpg",
+        image: "image/twin-xl-sheets-dark-gray.jpg",
         link: "https://www.amazon.com/dp/B00Q7OAN50"
     },
     {
@@ -116,7 +116,7 @@ export const items = [
         title: "Twin XL Sheets - Dutch Blue",
         price: 12,
         store: "Amazon",
-        image: "Image/twin-xl-sheets-dutch-blue.webp",
+        image: "image/twin-xl-sheets-dutch-blue.webp",
         link: "https://www.amazon.com/dp/B07QS8HNM9"
     },
     {
@@ -124,7 +124,7 @@ export const items = [
         title: "Twin XL Sheets - Taupe",
         price: 17,
         store: "Amazon",
-        image: "Image/twin-xl-sheets-taupe.jpg",
+        image: "image/twin-xl-sheets-taupe.jpg",
         link: "https://www.amazon.com/dp/B06X9PTLJJ"
     }
 ];
